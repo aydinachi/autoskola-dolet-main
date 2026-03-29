@@ -460,7 +460,7 @@ export default function OnlineUcenje() {
           <p>
             {percentage >= 80 ? 'Odličan rezultat! 🎉' : 
              percentage >= 60 ? 'Dobar rezultat! 👍' : 
-             'Treba još malo vježbe! 💪'}
+             'Treba još malo vježbe!'}
           </p>
           <div>
             <RestartButton onClick={handleRestart}>
@@ -508,7 +508,7 @@ export default function OnlineUcenje() {
       <QuizContainer>
         <QuizHeader>
           <BackButton onClick={handleBackToFolders}>
-            ← Povratak na foldere
+            ← Povratak na testove
           </BackButton>
           <h1>{currentFolder.name}</h1>
           <p>{currentFolder.description}</p>
