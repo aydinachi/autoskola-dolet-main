@@ -1,35 +1,36 @@
 export const desktopHeaderPhrases = [
-  'Auto Škola DOLET – Profesionalna obuka za vozače',
+  'Sigurna i kvalitetna obuka, bez pritiska i komplikacija.',
 ];
 
 export const introParagraphs = [
-  'Dobrodošli u Auto Školu DOLET – mjesto gdje se samopouzdanje za volanom gradi kroz stručnu podršku i sigurnu obuku.',
-  'Naša misija je jednostavna: spoj teorije i prakse pretvaramo u jasne korake ka dozvoli, bez stresa i skrivenih troškova.',
+  'Od prvog časa do vozačke dozvole – uz tebe smo na svakom koraku',
+  '✔ Iskusni instruktori ‎ ‎ ‎ ‎  ‎   ✔ Moderna vozila',
+  '✔ Fleksibilni termini ‎  ‎  ‎   ✔ Visoka prolaznost',
+
 ];
 
 export const infoSections = [
   {
     title: 'O nama',
-    body: 'Prisutan u Sarajevu od 1977. (nekada Polet), DOLET je sinonim za povjerenje. Savremena vozila, mentori s iskustvom i cijena od 1.480 KM uz mogućnost rata čine obuku transparentnom od prvog dana.',
+    body: 'Prisutni u Sarajevu od 1977. godine, nekada kao Polet, danas kao DOLET. Kroz decenije rada izgradili smo povjerenje i postali jedna od najdugovječnijih auto škola u gradu. Iskustvo koje imamo danas prenosimo na svakog kandidata, uz moderan pristup i kvalitetnu obuku.',
+      
   },
   {
     title: 'Teorijska obuka',
-    body: 'U partnerstvu s Centrom za edukaciju prolazite kroz propise, znakove i realne situacije kroz sažeta predavanja i praktične primjere – sve što je potrebno da test iznenadi nikoga.',
+    body: 'Teorijska obuka se realizuje u saradnji sa Centrom za edukaciju vozača i instruktora vožnje, kroz jasan i sistematičan pristup propisima, saobraćajnim znakovima i stvarnim situacijama iz svakodnevnog saobraćaja',
   },
   {
     title: 'Praktična vožnja',
-    body: '35 časova individualne vožnje vode instruktori koji smiruju tremu i prenose rutinu sigurne vožnje. Napredujete tempom koji odgovara vama, na vozilima koja su spremna za svaki scenario.',
+    body: 'Praktična obuka za vozače B kategorije obuhvata 35 časova vožnje. Kroz individualan rad sa instruktorom postepeno stičete sigurnost, rutinu i osjećaj za vožnju u realnim saobraćajnim situacijama.',
   },
-  {
-    title: 'Prva pomoć',
-    body: 'Kandidate vodimo kroz organizaciju i polaganje teorijskog dijela prve pomoći u ovlaštenim centrima, uz jasne upute i termine bez dodatnog stresa.',
-  },
+
 ];
 
 export const reasons = [
-  'Stručni instruktori i savremena vozila spremna za praksu.',
-  'Teorijska obuka uz Centar za edukaciju i provjerene materijale.',
-  '35 časova praktične vožnje uz fleksibilan, individualan plan.',
-  'Transparentna cijena – 1.480 KM, bez skrivenih troškova, uz rate.',
-  'Fleksibilni termini i visoka prolaznost kandidata.',
+  'Iskusni i strpljivi instruktori koji rade s vama bez pritiska.',
+  'Savremena i sigurna vozila spremna za obuku.',
+  'Teorijska i praktična obuka uz provjerene metode rada',
+  '35 časova vožnje uz individualan pristup svakom kandidatu',
+  'Fleksibilni termini koji se prilagođavaju vašem vremenu',
+  'Dugogodišnja tradicija i povjerenje još od 1977. godine',
 ];
