@@ -254,6 +254,14 @@ export default function Kontakt() {
     }));
   };
 
+  const saveContactMessage = (message: any) => {
+    if (typeof window === 'undefined') return;
+    const stored = localStorage.getItem('dolet_contact_messages');
+    const existing = stored ? JSON.parse(stored) : [];
+    existing.unshift(message);
+    localStorage.setItem('dolet_contact_messages', JSON.stringify(existing));
+  };
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
@@ -262,10 +270,22 @@ export default function Kontakt() {
     try {
       // Simulate form submission
       await new Promise(resolve => setTimeout(resolve, 2000));
-      
-      // Here you would typically send the data to your backend
-      console.log('Form submitted:', formData);
-      
+
+      const submittedMessage = {
+        id: Date.now(),
+        name: formData.name,
+        email: formData.email,
+        phone: formData.phone,
+        subject: formData.subject,
+        message: formData.message,
+        date: new Date().toISOString(),
+        status: 'inbox',
+        read: false,
+      };
+
+      saveContactMessage(submittedMessage);
+      console.log('Form submitted:', submittedMessage);
+
       setSubmitStatus('success');
       setFormData({
         name: '',
